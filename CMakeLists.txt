@@ -17,6 +17,7 @@ add_executable(CryptoCPP
   cryptocoins.cpp defines.h cryptobinance.cpp cryptobinance.h cryptocoins.h http.cpp http.h icryptobase.h
   arbitragecalculator.h arbitragecalculator.cpp
   icryptobase.cpp
+  LICENSE
 )
 target_link_libraries(CryptoCPP Qt${QT_VERSION_MAJOR}::Core Qt${QT_VERSION_MAJOR}::Network)
 
